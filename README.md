@@ -78,4 +78,3 @@ Objetivo: Usar una clave SSH privada para conectarse como bandit14.
 
 Comando: ssh -i sshkey.private bandit14@localhost -p 2220
 
-Nota: Una vez dentro, la clave real para el nivel 14 se encuentra en /etc/bandit_pass/bandit14.
