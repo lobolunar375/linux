@@ -1,0 +1,77 @@
+{
+  "isolation_forest": {
+    "accuracy": 0.93,
+    "precision": 0.6490066225165563,
+    "recall": 0.6533333333333333,
+    "f1": 0.6511627906976745,
+    "roc_auc": null,
+    "average_precision": null,
+    "confusion_matrix": [
+      [
+        1297,
+        53
+      ],
+      [
+        52,
+        98
+      ]
+    ],
+    "total_samples": 1500,
+    "true_anomalies": 150,
+    "predicted_anomalies": 151,
+    "false_positives": 53,
+    "false_negatives": 52,
+    "true_positives": 98,
+    "true_negatives": 1297
+  },
+  "lof": {
+    "accuracy": 0.8593333333333333,
+    "precision": 0.3386243386243386,
+    "recall": 0.4266666666666667,
+    "f1": 0.3775811209439528,
+    "roc_auc": null,
+    "average_precision": null,
+    "confusion_matrix": [
+      [
+        1225,
+        125
+      ],
+      [
+        86,
+        64
+      ]
+    ],
+    "total_samples": 1500,
+    "true_anomalies": 150,
+    "predicted_anomalies": 189,
+    "false_positives": 125,
+    "false_negatives": 86,
+    "true_positives": 64,
+    "true_negatives": 1225
+  },
+  "elliptic_envelope": {
+    "accuracy": 0.9713333333333334,
+    "precision": 0.8364779874213837,
+    "recall": 0.8866666666666667,
+    "f1": 0.86084142394822,
+    "roc_auc": null,
+    "average_precision": null,
+    "confusion_matrix": [
+      [
+        1324,
+        26
+      ],
+      [
+        17,
+        133
+      ]
+    ],
+    "total_samples": 1500,
+    "true_anomalies": 150,
+    "predicted_anomalies": 159,
+    "false_positives": 26,
+    "false_negatives": 17,
+    "true_positives": 133,
+    "true_negatives": 1324
+  }
+}
